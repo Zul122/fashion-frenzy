@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    animation-name: fade;
+    animation-duration: 2s;
+    user-select: none;
+}
+
+.header{
+    width: 306px;
+    height: 120vh;
+    margin: 0px;
+    background-color: #858585;
+}
+
+#home{
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+}
+
+#sign-up{
+    width: 170px;
+    margin-top: 5px;
+    float: right;
+    animation-name:  slidedown;
+    animation-duration: 3s;
+}
+
+.box h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.box{
+    width: 300px;
+    height: 170px;
+    margin: 0px;
+    background-color: #5E5E5E;
+    border: 3px solid black;
+    border-top: none;
+}
+
+.box #logo{
+    width: 300px;
+    margin: 0px;
+    margin-left: 0px;
+    animation-name:  slidedown;
+    animation-duration: 2s;
+}
+
+
+.drop h2{
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 50px;
+cursor: default;
+}
+.drop a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.drop a:hover{
+    background-color: rgb(87, 87, 87);
+    width: fit-content;
+}
+
+.drop{
+    display: inline-block;
+}
+
+@keyframes sideleft{
+    from{transform: translateX(100%)}
+}
+
+@keyframes sideRight{
+    from{transform: translateX(-100%)}
+}
+
+@keyframes fade{
+    30%{opacity: 0;}
+}
+@keyframes slidedown{
+    from{transform: translateY(-100%)}
+}

@@ -1,0 +1,202 @@
+body{
+    margin: 0px;
+    animation-name: fade;
+    animation-duration: 2s;
+    user-select: none;
+}
+
+.header{
+    width: auto;
+    height: 150px;
+    margin: 0px;
+    background-color: rgb(216, 216, 216);
+}
+
+.header #logo{
+    width: 220px;
+    margin: 0px;
+    animation-name:  slidedown;
+    animation-duration: 2s;
+}
+
+.header #sign-up{
+    width: 170px;
+    margin: 0px;
+    float: right;
+    animation-name:  sideleft;
+    animation-duration: 3s;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    position: relative;
+    bottom: 90px;
+    right: 100px;
+}
+.navbar #a{
+    border-top: 2px solid;
+    border-color: rgb(71, 71, 71);
+}
+
+.navbar a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin: 50px;
+    margin-top: 0px;
+    display: block;
+}
+
+.navbar a:hover {
+    font-size: larger;
+}
+.navbar li {
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+.navbar #a:hover{
+    font-size: 20px;
+}
+
+@keyframes sideleft{
+    from{transform: translateX(100%)}
+}
+.box{
+    width: auto;
+    height: 70px;
+    margin: 0px;
+    background-color: rgb(66, 68, 68);
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.contact-box{
+    display: flex;
+    margin-top: 150px;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 90px 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    left: 150px;
+}
+.container h1{
+    margin-left:120px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input_row .input-group{
+    flex-basis: 35%;
+}
+
+.navbar #a:hover{
+    font-size: 20px;
+}
+
+.input-group #SUBJECT{
+    width: 620px;
+}
+
+input{
+    width: 100%;
+    border: 4px solid #b3b1b1;
+    border-right: 6px solid #b3b1b1;
+    border-left: 6px solid #b3b1b1;
+    border-radius: 50px;
+    padding: 10px;
+    width: 200px;
+    height: 20px;
+    outline: none;
+    font-style: italic;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 300ms all;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+button{
+    background: rgb(175, 170, 170);
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    color: #000000;
+    margin-top: 10px;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+}
+
+.details{
+    width: 150px;
+    height: fit-content;
+}
+
+.details h3{
+margin: 0px;
+text-align: center;
+position: relative;
+bottom: 30px;
+}
+
+.details h5{
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.icons{
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 40px;
+    right: 50px;
+}
+.icons img{
+    position: relative;
+    left: 10px;
+}
+
+@keyframes slidedown2{
+    from{transform: translateY(30%)}
+}
+@keyframes slidedown{
+    from{transform: translateY(-100%)}
+}
+
+@keyframes fade{
+    30%{opacity: 0;}
+}
